@@ -1,4 +1,4 @@
-# My Data Visualizer Documentation 
+# My Warehouse Visualizer Documentation 
 
 # Contents
 
@@ -34,6 +34,8 @@
 
 * [My Warehouse Visualizer Demo](http://mydatavisualizer.com/demo/warehouse)
 	
+Existing warehouse layouts and inventories can be viewed on the demonstration site or you can dynamically reference newly loaded data as described in the [*Quick Start*](#Quick-Start) section.
+	
 **Note**: 
 
 * This documentation describes features and functionality in the free version of My Warehouse Visualizer.  
@@ -43,20 +45,48 @@
 
 ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizerDamagedAnalysis.png)
 
-* The work-flow to visualize a warehouse layout and its respective inventory data involves loading [.csv files](https://en.wikipedia.org/wiki/Comma-separated_values) into the application.  
-The files can either be uploaded to the application or referenced from a published Google Sheet.
+* The quickest workflow to visualize a warehouse layout and its inventory is to use data from a Google Sheet.  
 
-### Uploading the Layout and Inventory CSV files
-* The files must be ha  
+* The [Small Warehouse Google Sheet](https://docs.google.com/spreadsheets/d/14Xwqk9zJxkBt5enYEWTbOPUQrKn0AoMyFYaUePHtk8o/edit#gid=0) contains Layout and Inventory data in seperate pages that can be referenced in [Comma-seperated value](https://en.wikipedia.org/wiki/Comma-separated_values) format. 
+	
+* This sheet was utilized when demonstrating the technical foundation of *My Warehouse Visualizer* in the [*Warehouse Visualization With DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual) Observable notebook.
+
+### Using the Layout and Inventory CSV files from a Google Sheet
+
+* The published CSV Layout data pages are available at the followig URLs: 
+
+	* [https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=0&single=true&output=csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=0&single=true&output=csv)
+
+	* [https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=377990885&single=true&output=csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=377990885&single=true&output=csv)
+
+* Select *CSV URLs...* from the *Warehouse:* drop-down menu:
+
+![Screen Shot of CSV URLs selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs.png)
+
+* Input the two CSV URLs and select the *OK* button.
+
+![Screen Shot of CSV URLs selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs2.png)
+
+* ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizerDamagedAnalysis.png)
+
+## A Place for Everything, and Everything in Its Place
+
+The *All about warhouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RzAcwQiPi-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+========================Finish ===========>
+
 
 ### Referencing Layout and Inventory from Published Google Sheet CSV Pages
 
 [Publish Google Sheets spreadsheets in five additional formats](https://gsuiteupdates.googleblog.com/2015/06/publish-google-sheets-spreadsheets-in.html)
 
 * [***Warehouse Visualization with DataVisual***]()is an Observable Notebook that demonstrates the fundamentals of warehouse visualization using [layout](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=0&single=true&output=csv) and [inventory](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=377990885&single=true&output=csv) data published in csv format.
-========================Finish ===========>
 
-## Background
+
+
+
 
 ### General
 

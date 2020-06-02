@@ -43,8 +43,17 @@
 
 ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizerDamagedAnalysis.png)
 
-* The quickest work-flow is utilizing a [glTF](https://en.wikipedia.org/wiki/GlTF) with data in a [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values).  
+* The work-flow to visualize a warehouse layout and its respective inventory data involves loading [.csv files](https://en.wikipedia.org/wiki/Comma-separated_values) into the application.  
+The files can either be uploaded to the application or referenced from a published Google Sheet.
 
+### Uploading the Layout and Inventory CSV files
+* The files must be ha  
+
+### Referencing Layout and Inventory from Published Google Sheet CSV Pages
+
+[Publish Google Sheets spreadsheets in five additional formats](https://gsuiteupdates.googleblog.com/2015/06/publish-google-sheets-spreadsheets-in.html)
+
+* [***Warehouse Visualization with DataVisual***]()is an Observable Notebook that demonstrates the fundamentals of warehouse visualization using [layout](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=0&single=true&output=csv) and [inventory](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=377990885&single=true&output=csv) data published in csv format.
 ========================Finish ===========>
 
 ## Background

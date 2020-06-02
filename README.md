@@ -61,11 +61,27 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
 
 * Select *CSV URLs...* from the *Warehouse:* drop-down menu:
 
-![Screen Shot of CSV URLs selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs.png)
+![Screen Shot of CSV URLs Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs.png)
 
 * Input the two CSV URLs and select the *OK* button.
 
-![Screen Shot of CSV URLs selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs2.png)
+![Screen Shot of CSV URLs Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs2.png)
+
+* Screen Shot for the loaded Layout and Inventory Data:
+ 
+![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizer.png)
+
+#### Uploading the Layout and Inventory CSV Files
+
+Alternatively, the layout and inventory data can be uploaded to *My Warehouse Visualizer*.  Several sample files are provided in the [data folder](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data):
+
+* Select *Upload...* from the *Warehouse:* drop-down menu:
+
+![Screen Shot of Upload Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/Upload.png)
+
+* Select a layout and inventory file to upload.  The filenames must contain the text 'layout' and 'inventory' in their names to distinguish them.
+
+![Screen Shot of File Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/Upload2.png)
 
 * Screen Shot for the loaded Layout and Inventory Data:
  
@@ -73,21 +89,13 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
 
 ## A Place for Everything, and Everything in Its Place
 
-The *All about warhouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage:
-
+The *All about warehouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage.
 
 [![All about warehouse slotting](https://img.youtube.com/vi/RzAcwQiPi-w/0.jpg)](https://www.youtube.com/embed/RzAcwQiPi-w)
 
+*My Warehouse Visualizer* helps visualize the results of slotting strategies and optimizations.
+
 ========================Finish ===========>
-
-
-### Referencing Layout and Inventory from Published Google Sheet CSV Pages
-
-[Publish Google Sheets spreadsheets in five additional formats](https://gsuiteupdates.googleblog.com/2015/06/publish-google-sheets-spreadsheets-in.html)
-
-* [***Warehouse Visualization with DataVisual***]()is an Observable Notebook that demonstrates the fundamentals of warehouse visualization using [layout](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=0&single=true&output=csv) and [inventory](https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pub?gid=377990885&single=true&output=csv) data published in csv format.
-
-
 
 
 

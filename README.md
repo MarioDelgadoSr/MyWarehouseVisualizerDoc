@@ -55,7 +55,7 @@ The *All about warehouse slotting* video provides a good overview of one of the 
 
 * The [Small Warehouse Google Sheet](https://docs.google.com/spreadsheets/d/14Xwqk9zJxkBt5enYEWTbOPUQrKn0AoMyFYaUePHtk8o/edit#gid=0) contains Layout and Inventory data in separate pages that can be referenced in [Comma-separated value](https://en.wikipedia.org/wiki/Comma-separated_values) format. 
 
-* This sheet was utilized when demonstrating the technical foundation of ***My Warehouse Visualizer*** in the [*Warehouse Visualization With DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual) Observable notebook.
+* This sheet was utilized when demonstrating the technical foundation of ***My Warehouse Visualizer*** in the [*Warehouse Visualization With DataVisual*](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual) Observable notebook.
 
 ### Using the Layout and Inventory CSV files from a Google Sheet
 
@@ -125,7 +125,7 @@ The following [Computational Essay](https://blog.stephenwolfram.com/2017/11/what
 
 	* Several sample files are available for review in the [data folder](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data).
 
-* When loaded, the data are are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
+* When loaded, the data are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
 	
 	* Any column name that is prefixed with a '\s' instructs the parser to override the D3 AutoType parser](https://github.com/d3/d3-dsv#autoType) and treat the columns contents as a string.  An example of this in the sample data is the *\sITEM NO* column in the [sample invetory files](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data). 
 
@@ -133,7 +133,7 @@ The following [Computational Essay](https://blog.stephenwolfram.com/2017/11/what
 
 At a minimum, the Layout data must have the following columns of data:
 
-Column name | Notes 
+Column Name | Notes 
 -------|-------
 LOCATION | A unique identifier for a slot. 'LOCATION' is also a column in the Inventory dataset.
 WIDTH | A numeric value representing the width of an individual slot.
@@ -149,7 +149,7 @@ BAY | A unique identifier for a collection of 'LOCATION' slots.
 #### Inventory Data Specifications
 
 At a minimum, the Inventory data must have the following columns of data:
-Column name | Notes 
+Column Name | Notes 
 -------|-------
 LOCATION | A unique identifier for a slot. 'LOCATION' is also a column in the Layout dataset.
 
@@ -167,7 +167,7 @@ Attribute | Description
 *LINK_* | An attribute identifier for optional HyperLinks associated with *name* column values. At run-time, ***My Warehouse Visualizer*** will append the *name* column value to the '*LINK_*' column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 *\s* | An attribute identifier that instructs the data load parser to override the D3 AutoType parser](https://github.com/d3/d3-dsv#autoType) and treat the columns contents as a string.
 
-##Analysis and Visualization
+## Analysis and Visualization
 
 * Once Layout and Inventory data have been loaded, the analysis and visualization functionality is similar to ***My Data Visualizer***.  
 

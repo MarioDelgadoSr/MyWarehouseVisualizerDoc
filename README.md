@@ -4,10 +4,11 @@
 
 * [Introduction](#Introduction)
 	* [Demonstration Site](#Demonstration-Site)
-	* [A Place for Everything, and Everything in Its Place](#A-Place-for-Everything,-and-Everything-in-Its-Place)
+	* [A Place for Everything, and Everything in Its Place](#A-Place-for-Everything-and-Everything-in-Its-Place)
 * [Quick Start](#Quick-Start)
 	* [Using the Layout and Inventory CSV files from a Google Sheet](#Using-the-Layout-and-Inventory-CSV-files-from-a-Google-Sheet)
-	* [Uploading the Layout and Inventory CSV Files](Uploading-the-Layout-and-Inventory-CSV-Files)
+	* [Uploading the Layout and Inventory CSV Files](#Uploading-the-Layout-and-Inventory-CSV-Files)
+* [Analysis and Visualization](#Analysis-and-Visualization)	
 * [Background](#Background)
 	* [General](#General)
 	* [Technical](#Technical)
@@ -41,7 +42,7 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
 	
 **Note**: 
 
-* This documentation describes features and functionality in the free version of My Warehouse Visualizer.  
+* This documentation describes features and functionality in the free version of ***My Warehouse Visualizer***.  
 * The full licensed version of the application and framework has additional features detailed in a separate document.
 
 ### A Place for Everything, and Everything in Its Place
@@ -50,7 +51,7 @@ The *All about warehouse slotting* video provides a good overview of one of the 
 
 [![All about warehouse slotting](https://img.youtube.com/vi/RzAcwQiPi-w/0.jpg)](https://www.youtube.com/embed/RzAcwQiPi-w)
 
-*My Warehouse Visualizer* helps visualize the results of slotting strategies and optimizations.
+***My Warehouse Visualizer*** helps visualize the results of slotting strategies and optimizations.
 
 ## Quick Start
 
@@ -58,9 +59,14 @@ The *All about warehouse slotting* video provides a good overview of one of the 
 
 * The quickest workflow to visualize a warehouse layout and its inventory is to use data from a Google Sheet.  
 
-* The [Small Warehouse Google Sheet](https://docs.google.com/spreadsheets/d/14Xwqk9zJxkBt5enYEWTbOPUQrKn0AoMyFYaUePHtk8o/edit#gid=0) contains Layout and Inventory data in seperate pages that can be referenced in [Comma-seperated value](https://en.wikipedia.org/wiki/Comma-separated_values) format. 
+* The [Small Warehouse Google Sheet](https://docs.google.com/spreadsheets/d/14Xwqk9zJxkBt5enYEWTbOPUQrKn0AoMyFYaUePHtk8o/edit#gid=0) contains Layout and Inventory data in separate pages that can be referenced in [Comma-separated value](https://en.wikipedia.org/wiki/Comma-separated_values) format. 
+
+	<figure class="video_container">
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT3XpGLIsLj3cyj4rdraGQggWcjN-eHL4HgHec0gEWGc2g5lZi5q0FRpj-I73CCpYE-lsVeiHmhzeA3/pubhtml?widget=true&amp;headers=false" width=900 height=250></iframe>
+	</figure>
+
 	
-* This sheet was utilized when demonstrating the technical foundation of *My Warehouse Visualizer* in the [*Warehouse Visualization With DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual) Observable notebook.
+* This sheet was utilized when demonstrating the technical foundation of ***My Warehouse Visualizer*** in the [*Warehouse Visualization With DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual) Observable notebook.
 
 ### Using the Layout and Inventory CSV files from a Google Sheet
 
@@ -84,7 +90,7 @@ The *All about warehouse slotting* video provides a good overview of one of the 
 
 ### Uploading the Layout and Inventory CSV Files
 
-Alternatively, the layout and inventory data can be uploaded to *My Warehouse Visualizer*.  Several sample files are provided in the [data folder](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data):
+Alternatively, the layout and inventory data can be uploaded to ***My Warehouse Visualizer***.  Several sample files are provided in the [data folder](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data):
 
 * Select *Upload...* from the *Warehouse:* drop-down menu:
 
@@ -99,50 +105,43 @@ Alternatively, the layout and inventory data can be uploaded to *My Warehouse Vi
 ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizer.png)
 
 
+##Analysis and Visualization
+
+* Once Layout and Inventory data have been loaded, the analysis and visualization functionality is similar to ***My Data Visualizer***.  
+
+* Detail documentation can be found at [https://github.com/MarioDelgadoSr/MyDataVisualizerDoc#analysis](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc#analysis);
+
 # FINISH =>
 
-
+## Background
 
 ### General
 
-***My Data Visualizer*** was developed to add an important *dimension* to data visualization; [WebGL 3D graphics](https://blogg.bekk.no/webgl-and-data-visualisation-379d8252ea51?gi=fe1368432a8f).
+Both ***My Data Visualizer*** and ***My Warehouse Visualizer*** were developed to add an important *dimension* to data visualization; [WebGL 3D graphics](https://blogg.bekk.no/webgl-and-data-visualisation-379d8252ea51?gi=fe1368432a8f).
 
-With ***My Data Visualizer*** data is contextualized on a 3D graphic representation of the real-world objects that the data is associated with.
-
-For example, the following screen shot visualizes passenger revenue on a plane for each assigned seat location:
-
-![Screen Shot of My Data Visualizer Plane Visualization](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyDataVisualizerPlaneScreenShot.png)
-
+With ***My Warehouse Visualizer***, inventory data is contextualized on a 3D graphic representation of a warehouse layout.
 
 ### Technical
 
-The following two [Computational Essays](https://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/) hosted on [ObservableHQ.com](https://observablehq.com/@observablehq/introduction-to-notebooks) provide a technical background on the design approach for ***My Data Visualizer***:
+The following [Computational Essay](https://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/) hosted on [ObservableHQ.com](https://observablehq.com/@observablehq/introduction-to-notebooks) provides a technical background on the design approach for ***My Warehouse Visualizer***:
 
-* [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and 
-* [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets using a glTF with Embedded Data](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets-u)
-
+* [*Warehouse Visualization With DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual)
 
 ## Requirements
 
-***My Data Visualizer*** requires:
+***My Warehouse Visualizer*** requires:
 
-* **Data** (measures and dimensions) following a set of simple [specifications](#Data-Attributes);
-* **WebGL 3D** Graphic with addressable [material(s)](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) for the graphic's sub-components that will be visualized.
+* A warehouse layout file that specifies the the dimensions and locations of the storage slots.
 
-Both of these components can be uploaded (see screen shot) to the [demonstration application](http://mydatavisualizer.com/demo/) as one of the following:
-
-* A .gltf or .glb file with its associated .csv file (see [Quick Start](#Quick-Start) for an example);
-* A .gltf file with embedded data; (see the [repository](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/repository) for several examples).
-* A .glb file with the embedded data (see the [repository](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/repository) for several examples).
-
-Data that are uploaded are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
-
-![Screen Shot of My Data Visualizer Upload](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyDataVisualizerUploadScreenShot.png)
-
+* An inventory file that details what items are stored in the storage slots.
 
 #### Data
 
-The data to be visualized can be in either a [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values) or embedded in the [glTF file](https://github.com/KhronosGroup/glTF/tree/master/specification/) that describes the WebGL 3D graphic itself.
+* The data to be visualized must be in a [Comma-separated](https://en.wikipedia.org/wiki/Comma-separated_values) format.  
+
+* When loaded, the data are are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
+	
+	* Any column that you 
 
 * The [Body.csv](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/repository/Tutorial/Body.csv) is an example of the data associated with the [*Body.gltf*](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/repository/Tutorial/Body.gltf) file:
 

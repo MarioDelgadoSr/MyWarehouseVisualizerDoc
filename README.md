@@ -67,7 +67,9 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
 
 ![Screen Shot of CSV URLs selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/CSVURLs2.png)
 
-* ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizerDamagedAnalysis.png)
+* Screen Shot for the loaded Layout and Inventory Data:
+ 
+![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizer.png)
 
 ## A Place for Everything, and Everything in Its Place
 

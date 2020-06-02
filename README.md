@@ -75,7 +75,8 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
 
 The *All about warhouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RzAcwQiPi-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![All about warehouse slotting](https://img.youtube.com/vi/RzAcwQiPi-w/0.jpg)](https://www.youtube.com/embed/RzAcwQiPi-w)
 
 ========================Finish ===========>
 

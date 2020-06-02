@@ -4,7 +4,10 @@
 
 * [Introduction](#Introduction)
 	* [Demonstration Site](#Demonstration-Site)
+	* [A Place for Everything, and Everything in Its Place](#A-Place-for-Everything,-and-Everything-in-Its-Place)
 * [Quick Start](#Quick-Start)
+	* [Using the Layout and Inventory CSV files from a Google Sheet](#Using-the-Layout-and-Inventory-CSV-files-from-a-Google-Sheet)
+	* [Uploading the Layout and Inventory CSV Files](Uploading-the-Layout-and-Inventory-CSV-Files)
 * [Background](#Background)
 	* [General](#General)
 	* [Technical](#Technical)
@@ -41,6 +44,14 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
 * This documentation describes features and functionality in the free version of My Warehouse Visualizer.  
 * The full licensed version of the application and framework has additional features detailed in a separate document.
 
+### A Place for Everything, and Everything in Its Place
+
+The *All about warehouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage.
+
+[![All about warehouse slotting](https://img.youtube.com/vi/RzAcwQiPi-w/0.jpg)](https://www.youtube.com/embed/RzAcwQiPi-w)
+
+*My Warehouse Visualizer* helps visualize the results of slotting strategies and optimizations.
+
 ## Quick Start
 
 ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizerDamagedAnalysis.png)
@@ -71,7 +82,7 @@ Existing warehouse layouts and inventories can be viewed on the demonstration si
  
 ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizer.png)
 
-#### Uploading the Layout and Inventory CSV Files
+### Uploading the Layout and Inventory CSV Files
 
 Alternatively, the layout and inventory data can be uploaded to *My Warehouse Visualizer*.  Several sample files are provided in the [data folder](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data):
 
@@ -79,7 +90,7 @@ Alternatively, the layout and inventory data can be uploaded to *My Warehouse Vi
 
 ![Screen Shot of Upload Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/Upload.png)
 
-* Select a layout and inventory file to upload.  The filenames must contain the text 'layout' and 'inventory' in their names to distinguish them.
+* Select a layout and inventory files to upload.  The filenames must contain the text 'layout' and 'inventory' in their names to distinguish them.  The files can be dragged-and-dropped onto the page or selected from a file dialog.
 
 ![Screen Shot of File Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/Upload2.png)
 
@@ -87,15 +98,8 @@ Alternatively, the layout and inventory data can be uploaded to *My Warehouse Vi
  
 ![Screen Shot of My Warehouse Visualizer](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/MyWarehouseVisualizer.png)
 
-## A Place for Everything, and Everything in Its Place
 
-The *All about warehouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage.
-
-[![All about warehouse slotting](https://img.youtube.com/vi/RzAcwQiPi-w/0.jpg)](https://www.youtube.com/embed/RzAcwQiPi-w)
-
-*My Warehouse Visualizer* helps visualize the results of slotting strategies and optimizations.
-
-========================Finish ===========>
+# FINISH =>
 
 
 

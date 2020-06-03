@@ -127,7 +127,7 @@ The following [Computational Essay](https://blog.stephenwolfram.com/2017/11/what
 
 * When loaded, the data are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
 	
-	* Any column name that is prefixed with a '\s' instructs the parser to override the D3 AutoType parser](https://github.com/d3/d3-dsv#autoType) and treat the columns contents as a string.  An example of this in the sample data is the *\sITEM NO* column in the [sample invetory files](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data). 
+	* Any column name that is prefixed with a '\s' instructs the parser to override the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType) and treat the columns contents as a string.  An example of this in the sample data is the *\sITEM NO* column in the [sample invetory files](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/tree/master/data). 
 
 #### Layout Data Specifications
 

@@ -149,9 +149,10 @@ BAY | A unique identifier for a collection of 'LOCATION' slots.
 #### Inventory Data Specifications
 
 At a minimum, the Inventory data must have the following columns of data:
+
 Column Name | Notes 
 -------|-------
-LOCATION | A unique identifier for a slot. 'LOCATION' is also a column in the Layout dataset.
+LOCATION | A unique identifier for a slot. 'LOCATION' is also a column in the Inventory dataset.
 
 
 ##### Data Attributes

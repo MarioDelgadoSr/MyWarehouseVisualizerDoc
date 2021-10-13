@@ -28,12 +28,13 @@
 * The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
 * Like ***My Data Visualizer***, ***My Warehouse Visualizer*** is a [100% Client-side application](https://en.wikipedia.org/wiki/Client-side); your data is not uploaded to a server or the cloud.
 
-### Demonstration Site	
+### Demonstrations	
 
-* [My Warehouse Visualizer Demo](http://mydatavisualizer.com/demo/warehouse)
+* [My Warehouse Visualizer Demo](http://mydatavisualizer.com/demo/warehouse)  
+
+	Existing warehouse layouts and inventories can be viewed on the demonstration site or you can dynamically reference newly loaded data as described in the [*Quick Start*](#Quick-Start) section.
+
 * [Warehouse Visualization with DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual?collection=@mariodelgadosr/datavisual)
-	
-Existing warehouse layouts and inventories can be viewed on the demonstration site or you can dynamically reference newly loaded data as described in the [*Quick Start*](#Quick-Start) section.
 	
 ### A Place for Everything, and Everything in Its Place
 

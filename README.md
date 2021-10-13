@@ -31,6 +31,7 @@
 ### Demonstration Site	
 
 * [My Warehouse Visualizer Demo](http://mydatavisualizer.com/demo/warehouse)
+* [Warehouse Visualization with DataVisual](https://observablehq.com/@mariodelgadosr/warehouse-visualization-with-datavisual?collection=@mariodelgadosr/datavisual)
 	
 Existing warehouse layouts and inventories can be viewed on the demonstration site or you can dynamically reference newly loaded data as described in the [*Quick Start*](#Quick-Start) section.
 	

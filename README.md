@@ -34,11 +34,6 @@
 	
 Existing warehouse layouts and inventories can be viewed on the demonstration site or you can dynamically reference newly loaded data as described in the [*Quick Start*](#Quick-Start) section.
 	
-**Note**: 
-
-* This documentation describes features and functionality in the free version of ***My Warehouse Visualizer***.  
-* The full licensed version of the application and framework has additional features detailed in a separate document.
-
 ### A Place for Everything, and Everything in Its Place
 
 The *All about warehouse slotting* video provides a good overview of one of the supply chain managers best practices for warehouse storage.

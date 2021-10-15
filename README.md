@@ -24,7 +24,7 @@
 
 ## Introduction
 
-* ***My Warehouse Visualizer*** is a version of [***My Data Visualizer***](http://MyDataVisualizer.com); develped specfically to aid warehouse/supply chain managers for visualize inventory in a [WebGL](https://www.khronos.org/webgl/) 3D visuals of warehouses.
+* ***My Warehouse Visualizer*** is a version of [***My Data Visualizer***](http://MyDataVisualizer.com); develped specfically to aid warehouse/supply chain managers visualize inventory in a [WebGL](https://www.khronos.org/webgl/) 3D visuals of warehouses.
 * The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
 * Like ***My Data Visualizer***, ***My Warehouse Visualizer*** is a [100% Client-side application](https://en.wikipedia.org/wiki/Client-side); your data is not uploaded to a server or the cloud.
 

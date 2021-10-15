@@ -160,7 +160,7 @@ Attribute | Description
 -------|------------
 *dimension* |  An attribute identifier for a dimension(s).  Examples: 'LOCATION', 'AISLE', 'BAY', '\sITEM NO'; see '\s' prefix below. 
 *measure*  | An attribute identifier for a measure(s). Example: 'ITEM WGT', 'WEEKLY MVMT', 'ITEM COST'.
-*COLOR_dimension, COLOR_measure* |  An indentifier with the '*COLOR_*' prefix designates an pre-define color attribute for a given *measure* or *dimension*.  Values can be any [CSS color name](https://www.w3schools.com/colors/colors_names.asp) or [hex triple](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) value.
+*COLOR_dimension, COLOR_measure* |  An indentifier with the '*COLOR_*' prefix designates a pre-define color attribute for a given *measure* or *dimension*.  Values can be any [CSS color name](https://www.w3schools.com/colors/colors_names.asp) or [hex triple](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) value.
 *DATE_dimension, DATETIME_dimension, TIME_dimension* | An attriute identifier for an [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date specified as a *dimension* . The '*DATE_*', '*DATETIME_*' and '*TIME_*' prefixes designate the data as a JavaScript Date.  
 *LINK_* | An attribute identifier for optional HyperLinks associated with *name* column values. At run-time, ***My Warehouse Visualizer*** will append the *name* column value to the '*LINK_*' column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 *\s* | An attribute identifier that instructs the data load parser to override the D3 AutoType parser](https://github.com/d3/d3-dsv#autoType) and treat the columns contents as a string.

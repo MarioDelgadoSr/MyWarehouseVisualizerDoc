@@ -82,7 +82,7 @@ Alternatively, the layout and inventory data can be uploaded to ***My Warehouse 
 
 ![Screen Shot of Upload Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/Upload.png)
 
-* Select a layout and inventory files to upload.  The filenames must contain the text 'layout' and 'inventory' in their names to distinguish them.  The files can be dragged-and-dropped onto the page or selected from a file dialog.
+* Select layout and inventory files to upload.  The filenames must contain the text 'layout' and 'inventory' in their names to distinguish them.  The files can be dragged-and-dropped onto the page or selected from a file dialog.
 
 ![Screen Shot of File Selection](https://github.com/MarioDelgadoSr/MyWarehouseVisualizerDoc/blob/master/img/Upload2.png)
 

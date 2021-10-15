@@ -140,7 +140,7 @@ X | A numeric value representing the X coordinate of an individual slot.
 Y | A numeric value representing the Y coordinate of an individual slot. 
 Z | A numeric value representing the Z coordinate of an individual slot.
 AISLE | An aisle identifier for the slot.
-CENTERAXIS | Contains either a value of 'X' or 'Y' to instruct the application along which axis the relative 'AISLE' is oriented on.
+CENTERAXIS | Contains either a value of 'X' or 'Y' to instruct the application as to which axis the relative 'AISLE' is oriented on.
 BAY | A unique identifier for a collection of 'LOCATION' slots.
 
 #### Inventory Data Specifications

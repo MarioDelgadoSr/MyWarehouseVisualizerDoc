@@ -30,7 +30,7 @@
 
 ### Demonstrations	
 
-* [My Warehouse Visualizer Demo](http://mydatavisualizer.com/demo/warehouse)  
+* [My Warehouse Visualizer Demo](https://mariodelgadosr.github.io/MyWarehouseVisualizer/)  
 
 	Existing warehouse layouts and inventories can be viewed on the demonstration site or you can dynamically reference newly loaded data as described in the [*Quick Start*](#Quick-Start) section.
 
